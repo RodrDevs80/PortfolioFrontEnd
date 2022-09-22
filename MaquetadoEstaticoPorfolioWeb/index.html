@@ -1,0 +1,745 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" href="/iconosApp/Logotipo 500x500 px.jpeg" />
+  <title>Portfolio Web CER</title>
+  <!--bootstrap-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous" />
+  <!--local-->
+  <link rel="stylesheet" href="style.css" />
+  <!--fontawesome-->
+  <script src="https://kit.fontawesome.com/b41e847f24.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <nav class="navbar navbar-dark bg-dark p-2 text-white bg-opacity-75 navColor">
+    <div class="container-fluid">
+      <a class="navbar-brand" target="_blank"
+        href="https://www.argentina.gob.ar/produccion/transformacion-digital-y-economia-del-conocimiento/argentina-programa"><img
+          class="border border-3 rounded-circle arg-imgp" src="iconosApp/ArgePro.png" alt="" /></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar"
+        aria-controls="offcanvasDarkNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar"
+        aria-labelledby="offcanvasDarkNavbarLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">
+            Developer Carlos E. Rodriguez
+          </h5>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+            aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Login</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" target="_blank"
+                href="https://www.w3schools.com/whatis/whatis_fullstack.asp#:~:text=A%20full%20stack%20web%20developer,ASP%2C%20Python%2C%20or%20Node)">¿Que
+                es ser Full Stack Web Developer?<i class="fa-solid fa-laptop-code m-lg-3"></i></a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Contacto y Redes Sociales
+              </a>
+              <ul class="dropdown-menu dropdown-menu-dark justify-content-center">
+                <li>
+                  <a class="dropdown-item" target="_blank" href="
+                    
+https://wa.me/+543844418268?text=Hola,%20me%20Carlos%20Rodriguez%20soy%20full%20stack%20developer%20y%20estoy%20para%20ayudarte!!!
+"><i class="fa-brands fa-whatsapp m-lg-2"></i>whatsapp</a><span><img class="bg-white d-block m-auto"
+                      src="iconosApp/qrcode-1658563456068.png" width="100px" height="100px" alt="" /></span>
+                </li>
+                <li>
+                  <a class="dropdown-item" target="_blank"
+                    href="https://www.linkedin.com/login/es?fromSignIn=true&session_redirect=https%3A%2F%2Fwww.linkedin.com%2Fjobs&trk=guest_homepage-jobseeker_nav-header-signin"><i
+                      class="fa-brands fa-linkedin m-lg-2"></i>Linkedin</a>
+                </li>
+
+                <li>
+                  <a class="dropdown-item" target="_blank" href="https://m.facebook.com/login/?locale=es_ES"><i
+                      class="fa-brands fa-facebook m-lg-2"></i>Facebook</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Buscar" />
+            <button class="btn btn-success" type="submit">
+              Search/Buscar
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <header>
+    <div>
+      <img class="imagenBanner" src="iconosApp/Dimensiones personalizadas 1300x550 px.jpeg" alt="" />
+    </div>
+    <span ><img style="z-index: 1;" class="img-foto img-thumbnail" src="iconosApp/f1.jpg" alt="" /> </span>
+  </header>
+  <section class="row masInfo">
+    
+      <div class="col-10">
+        <button class="editFoto" style="z-index: 0;"><i class="fa-solid fa-pen-to-square"></i></button>
+        <h1 class="nombre">Carlos Eduardo Rodriguez</h1>
+        <h6 class="tituloStack"><strong>Full Stack Developer Jr.</strong></h6>
+        <h6>Técnico en Reparación de PC y Redes</h6>
+        <h6>Profesor de Historia en el I.S.F.D.C.N°1</h6>
+        <p class="parrafo1">
+          Santigo Del Estero-Añatuya-(Argentina)
+          <a class="infoContacto" href="#">Información de contacto</a>
+        </p>
+        <div class="btn-group botonesEditMasInfo">
+          <a href="#" class="btn btn-primary active" aria-current="page">Tengo interés en</a>
+          <a href="#" class="btn btn-outline-primary">Añadir sección</a>
+          <a href="#" class="btn btn-outline-primary">Mas</a>
+        </div>
+      </div>
+      <div class="col-2 contenedorImg">
+        <img class="logoProfesorado" src="iconosApp/profesorado.jpeg" alt="" />
+      </div>
+    
+  </section>
+  <section class="acercaDe">
+    <div class="container-xl">
+      <div class="row">
+        <div class="col-1"></div>
+        <div class="col-10">
+          <h3>Acerca de.....</h3>
+          <p>
+            Soy docente de historia, pero siempre me intereso la tecnología, a
+            tal punto que me capacite en reparación de PC, notebook, netbook
+            y redes, comencé con mi propio emprendimiento en mis tiempos
+            libres. Me interese por la programación por que sentía que me
+            faltaba explorar una parte fundamental de lo que tanto me
+            apasiona,esta pasión me llevo a capacitarme como <strong>Full Stack
+              Developer Jr</strong>, que es un camino de aprendizaje continuo, el cual
+            estoy dispuesto a seguir, como una opción de evolución personal y
+            profesional.
+          </p>
+        </div>
+        <div class="col-1 icoAcercaDe">
+          <span class="iconoCruz"><button><i class="fa-solid fa-pen-clip"></i></button></span>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="experienciaEdu">
+    <!--Experinecia-->
+    <div class="container">
+      <div class="row">
+        <div class="col-11">
+          <h3>Experiencia</h3>
+        </div>
+        <div class="col-1">
+          <span class="iconoCruz"><button><i class="fa-solid fa-plus "></i></button></span>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-2">
+          <span><img class="img-fluid" src="iconosApp/sertec.jpeg" width="50px" height="50px" alt=""></span>
+        </div>
+        <div class="col-9">
+          <h5>Técnico de reparación de hardware</h5>
+        </div>
+        <div class="col-1">
+          <span><button><i class="fa-solid fa-pen lapiz"></i></button></span>
+          <span><button><i class="fa-solid fa-trash-can basura"></i></button></span>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-1">
+        </div>
+        <div class="col-10">
+          <p>SerTec-Servicio Técnico Informático </p>
+          <h6>Enero del 2015-actualidad-7 años</h6>
+          <h6>Añatuya-Santiago del Estero (Argentina)</h6>
+        </div>
+        <div class="col-1">
+
+        </div>
+
+      </div>
+      <div class="row">
+        <div class="col-2">
+          <span><img class="img-fluid" src="iconosApp/EXO_S.A.png" width="50px" height="50px" alt=""></span>
+        </div>
+        <div class="col-9">
+          <h5>Servicio Técnico Autorizado EXO <span><a
+                href="https://soporte.exo.com.ar/support/solutions/articles/22000269721-agentes-autorizados-para-atenci%C3%B3n-t%C3%A9cnica-en-garant%C3%ADa"><i
+                  class="fa-solid fa-link"></i></a></h5></span>
+        </div>
+        <div class="col-1">
+          <span><button><i class="fa-solid fa-pen lapiz"></i></button></span>
+          <span><button><i class="fa-solid fa-trash-can basura"></i></button></span>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-1">
+        </div>
+        <div class="col-10">
+          <p>EXO-Soluciones Tecnologicas</p>
+          <h6>2018-actualidad-4 años</h6>
+          <h6>Santiago del Estero (Argentina)</h6>
+        </div>
+        <div class="col-1"></div>
+      </div>
+      <div class="row">
+        <div class="col-2">
+          <span><img class="img-fluid rounded-circle" src="iconosApp/profesorado.jpeg" width="50px" height="50px" alt=""></span>
+        </div>
+        <div class="col-9">
+          <h5>Profesor de Historia</h5>
+        </div>
+        <div class="col-1">
+          <span><button><i class="fa-solid fa-pen lapiz"></i></button></span>
+          <span><button><i class="fa-solid fa-trash-can basura"></i></button></span>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-1">
+        </div>
+        <div class="col-10">
+          <p>I.S.F.D.C.N°1"Mons. Dr. Jorge Gottau"</p>
+          <h6>2005-actualidad-17 años</h6>
+          <h6>Añatuya-Santiago del Estero (Argentina)</h6>
+        </div>
+        <div class="col-1">
+
+        </div>
+      </div>
+
+    </div>
+    <!--Educacion-->
+    <div class="container">
+      <div class="row">
+        <div class="col-11">
+          <h3>Educación</h3>
+        </div>
+        <div class="col-1">
+          <span class="iconoCruz"><button><i class="fa-solid fa-plus "></i></button></span>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-2">
+          <span><img class="img-fluid" src="iconosApp/ArgePro.png" width="50px" height="50px" alt=""></span>
+        </div>
+        <div class="col-9">
+          <h5>Argentina Programa</h5>
+        </div>
+        <div class="col-1">
+          <span><button><i class="fa-solid fa-pen lapiz"></i></button></span>
+          <span><button><i class="fa-solid fa-trash-can basura"></i></button></span>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-1">
+        </div>
+        <div class="col-10">
+          <h6>Full Stack Developer Jr</h6>
+          <h6>2022-2023</h6>
+        </div>
+        <div class="col-1">
+
+        </div>
+
+      </div>
+      <div class="row">
+        <div class="col-2">
+          <span><img class="img-fluid" src="iconosApp/unse.png" width="50px" height="50px" alt=""></span>
+        </div>
+        <div class="col-9">
+          <h5>U.N.S.E-Universidad Nacional de Santiago Del Estero</h5>
+        </div>
+        <div class="col-1">
+          <span><button><i class="fa-solid fa-pen lapiz"></i></button></span>
+          <span><button><i class="fa-solid fa-trash-can basura"></i></button></span>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-1">
+        </div>
+        <div class="col-10">
+          <h6>Trayecto Técnico Profesional,creación y mantenimiento de redes informáticas Wi-Fi y cableadas </h6>
+          <h6>2012-2013</h6>
+        </div>
+        <div class="col-1">
+
+        </div>
+
+      </div>
+      <div class="row">
+        <div class="col-2">
+          <span><img class="img-fluid rounded-circle" src="iconosApp/profesorado.jpeg" width="50px" height="50px" alt=""></span>
+        </div>
+        <div class="col-9">
+          <h5>I.S.F.D.C.N°1"Mons. Dr. Jorge Gottau"</h5>
+        </div>
+        <div class="col-1">
+          <span><button><i class="fa-solid fa-pen lapiz"></i></button></span>
+          <span><button><i class="fa-solid fa-trash-can basura"></i></button></span>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-1">
+        </div>
+        <div class="col-10">
+          <h6>Educacion,Profesor de Historia</h6>
+          <h6>2000-2005</h6>
+        </div>
+        <div class="col-1"></div>
+      </div>
+      <div class="row">
+        <div class="col-2">
+          <span><img class="img-fluid" src="iconosApp/iac.jpeg" width="50px" height="50px" alt=""></span>
+        </div>
+        <div class="col-9">
+          <h5>I.A.C.-Instituto Argentino de Computación</h5>
+        </div>
+        <div class="col-1">
+          <span><button><i class="fa-solid fa-pen lapiz"></i></button></span>
+          <span><button><i class="fa-solid fa-trash-can basura"></i></button></span>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-1">
+        </div>
+        <div class="col-10">
+          <h6>Operador Profesional de Office</h6>
+          <h6>1997-1998</h6>
+        </div>
+        <div class="col-1">
+
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-2">
+          <span><img class="img-fluid rounded-circle" src="iconosApp/fa.jpg" width="50px" height="50px" alt=""></span>
+        </div>
+        <div class="col-9">
+          <h5>Colegio Florentino Ameghino</h5>
+        </div>
+        <div class="col-1">
+          <span><button><i class="fa-solid fa-pen lapiz"></i></button></span>
+          <span><button><i class="fa-solid fa-trash-can basura"></i></button></span>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-1">
+        </div>
+        <div class="col-10">
+          <h6>Bachiller-Orientación Docente </h6>
+          <h6>1992-1997</h6>
+        </div>
+        <div class="col-1">
+
+        </div>
+      </div>
+
+    </div>
+  </section>
+  <section class="habilidadesDurasBlandas">
+    <div class="container">
+      <div class="row">
+        <div class="col-11">
+          <h3>Hard Skills & Soft Skills</h3>
+        </div>
+        <div class="col-1">
+          <span class="iconoCruz"><button><i class="fa-solid fa-plus "></i></button></span>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-2">
+        </div>
+        <div class="col-9">
+          <h6>HTML</h6>
+        </div>
+        <div class="col-1">
+          <span><button><i class="fa-solid fa-pen lapiz"></i></button></span>
+          <span><button><i class="fa-solid fa-trash-can basura"></i></button></span>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-1">
+        </div>
+        <div class="col-10">
+          <div class="progress">
+            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
+              aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"
+              style="width: 90%">90%</div>
+          </div>
+        </div>
+        <div class="col-1"></div>
+      </div>
+      <!---->
+      <div class="row">
+        <div class="col-2">
+        </div>
+        <div class="col-9">
+          <h6>CSS</h6>
+        </div>
+        <div class="col-1">
+          <span><button><i class="fa-solid fa-pen lapiz"></i></button></span>
+          <span><button><i class="fa-solid fa-trash-can basura"></i></button></span>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-1">
+        </div>
+        <div class="col-10">
+          <div class="progress">
+            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
+              aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"
+              style="width: 70%">70%</div>
+          </div>
+        </div>
+        <div class="col-1"></div>
+      </div>
+      <!---->
+      <div class="row">
+        <div class="col-2">
+        </div>
+        <div class="col-9">
+          <h6>Javascript</h6>
+        </div>
+        <div class="col-1">
+          <span><button><i class="fa-solid fa-pen lapiz"></i></button></span>
+          <span><button><i class="fa-solid fa-trash-can basura"></i></button></span>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-1">
+        </div>
+        <div class="col-10">
+          <div class="progress">
+            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
+              aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"
+              style="width: 50%">50%</div>
+          </div>
+        </div>
+        <div class="col-1"></div>
+      </div>
+      <!---->
+      <div class="row">
+        <div class="col-2">
+        </div>
+        <div class="col-9">
+          <h6>Typescript</h6>
+        </div>
+        <div class="col-1">
+          <span><button><i class="fa-solid fa-pen lapiz"></i></button></span>
+          <span><button><i class="fa-solid fa-trash-can basura"></i></button></span>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-1">
+        </div>
+        <div class="col-10">
+          <div class="progress">
+            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
+              aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"
+              style="width: 20%">20%</div>
+          </div>
+        </div>
+        <div class="col-1"></div>
+      </div>
+      <!---->
+      <div class="row">
+        <div class="col-2">
+        </div>
+        <div class="col-9">
+          <h6>Angular</h6>
+        </div>
+        <div class="col-1">
+          <span><button><i class="fa-solid fa-pen lapiz"></i></button></span>
+          <span><button><i class="fa-solid fa-trash-can basura"></i></button></span>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-1">
+        </div>
+        <div class="col-10">
+          <div class="progress">
+            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
+              aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"
+              style="width: 15%">15%</div>
+          </div>
+        </div>
+        <div class="col-1"></div>
+      </div>
+      <!---->
+      <div class="row">
+        <div class="col-2">
+        </div>
+        <div class="col-9">
+          <h6>C++</h6>
+        </div>
+        <div class="col-1">
+          <span><button><i class="fa-solid fa-pen lapiz"></i></button></span>
+          <span><button><i class="fa-solid fa-trash-can basura"></i></button></span>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-1">
+        </div>
+        <div class="col-10">
+          <div class="progress">
+            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
+              aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"
+              style="width: 50%">50%</div>
+          </div>
+        </div>
+        <div class="col-1"></div>
+      </div>
+      <!---->
+      <div class="row">
+        <div class="col-2">
+        </div>
+        <div class="col-9">
+          <h6>Bootstrap</h6>
+        </div>
+        <div class="col-1">
+          <span><button><i class="fa-solid fa-pen lapiz"></i></button></span>
+          <span><button><i class="fa-solid fa-trash-can basura"></i></button></span>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-1">
+        </div>
+        <div class="col-10">
+          <div class="progress">
+            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
+              aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"
+              style="width: 70%">70%</div>
+          </div>
+        </div>
+        <div class="col-1"></div>
+      </div>
+      <!---->
+      <div class="row">
+        <div class="col-2">
+        </div>
+        <div class="col-9">
+          <h6>Disposición a aprender </h6>
+        </div>
+        <div class="col-1">
+          <span><button><i class="fa-solid fa-pen lapiz"></i></button></span>
+          <span><button><i class="fa-solid fa-trash-can basura"></i></button></span>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-1">
+        </div>
+        <div class="col-10">
+          <div class="progress">
+            <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" role="progressbar"
+              aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"
+              style="width: 100%">100%</div>
+          </div>
+        </div>
+        <div class="col-1"></div>
+      </div>
+      <!---->
+      <div class="row">
+        <div class="col-2">
+        </div>
+        <div class="col-9">
+          <h6>Responsabilidad</h6>
+        </div>
+        <div class="col-1">
+          <span><button><i class="fa-solid fa-pen lapiz"></i></button></span>
+          <span><button><i class="fa-solid fa-trash-can basura"></i></button></span>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-1">
+        </div>
+        <div class="col-10">
+          <div class="progress">
+            <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" role="progressbar"
+              aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"
+              style="width: 100%">100%</div>
+          </div>
+        </div>
+        <div class="col-1"></div>
+      </div>
+      <!---->
+      <div class="row">
+        <div class="col-2">
+        </div>
+        <div class="col-9">
+          <h6>Autonomía</h6>
+        </div>
+        <div class="col-1">
+          <span><button><i class="fa-solid fa-pen lapiz"></i></button></span>
+          <span><button><i class="fa-solid fa-trash-can basura"></i></button></span>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-1">
+        </div>
+        <div class="col-10">
+          <div class="progress">
+            <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" role="progressbar"
+              aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"
+              style="width: 90%">90%</div>
+          </div>
+        </div>
+        <div class="col-1"></div>
+      </div>
+      <!---->
+      <div class="row">
+        <div class="col-2">
+        </div>
+        <div class="col-9">
+          <h6>iniciativa </h6>
+        </div>
+        <div class="col-1">
+          <span><button><i class="fa-solid fa-pen lapiz"></i></button></span>
+          <span><button><i class="fa-solid fa-trash-can basura"></i></button></span>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-1">
+        </div>
+        <div class="col-10">
+          <div class="progress">
+            <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" role="progressbar"
+              aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"
+              style="width: 90%">90%</div>
+          </div>
+        </div>
+        <div class="col-1"></div>
+      </div>
+      <!---->
+      <div class="row">
+        <div class="col-2">
+        </div>
+        <div class="col-9">
+          <h6>Fuerza de voluntad y esfuerzo</h6>
+        </div>
+        <div class="col-1">
+          <span><button><i class="fa-solid fa-pen lapiz"></i></button></span>
+          <span><button><i class="fa-solid fa-trash-can basura"></i></button></span>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-1">
+        </div>
+        <div class="col-10">
+          <div class="progress">
+            <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" role="progressbar"
+              aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"
+              style="width: 100%">100%</div>
+          </div>
+        </div>
+        <div class="col-1"></div>
+      </div>
+      <!---->
+      <div class="row">
+        <div class="col-2">
+        </div>
+        <div class="col-9">
+          <h6>comunicación y escucha activa</h6>
+        </div>
+        <div class="col-1">
+          <span><button><i class="fa-solid fa-pen lapiz"></i></button></span>
+          <span><button><i class="fa-solid fa-trash-can basura"></i></button></span>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-1">
+        </div>
+        <div class="col-10">
+          <div class="progress">
+            <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" role="progressbar"
+              aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"
+              style="width: 95%">95%</div>
+          </div>
+        </div>
+        <div class="col-1"></div>
+      </div>
+      <!---->
+      <div class="row">
+        <div class="col-2">
+        </div>
+        <div class="col-9">
+          <h6>Sociabilidad </h6>
+        </div>
+        <div class="col-1">
+          <span><button><i class="fa-solid fa-pen lapiz"></i></button></span>
+          <span><button><i class="fa-solid fa-trash-can basura"></i></button></span>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-1">
+        </div>
+        <div class="col-10">
+          <div class="progress">
+            <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" role="progressbar"
+              aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"
+              style="width: 90%">90%</div>
+          </div>
+        </div>
+        <div class="col-1"></div>
+      </div>
+      <!---->
+    </div>
+
+  </section>
+  <section class="proyectos">
+    <!--proyectos-->
+    <div class="container">
+      <div class="row">
+        <div class="col-11">
+          <h3>Proyectos</h3>
+        </div>
+        <div class="col-1">
+          <span class="iconoCruz"><button><i class="fa-solid fa-plus "></i></button></span>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-11">
+          <h5>Portfolio Web</h5>
+        </div>
+        <div class="col-1">
+          <span><button><i class="fa-solid fa-pen lapiz"></i></button></span>
+          <span><button><i class="fa-solid fa-trash-can basura"></i></button></span>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-1">
+        </div>
+        <div class="col-10">
+          <p class="parrafoProyecto">Desarrolle un Portfolio Web, que es una forma única de mostrar mi trabajo y me va a
+            permitir que otras
+            personas sepan más de mi como developer y como persona comprometida con la tarea que me toque realizar.
+            Busque integrar todo un stack de tecnologías, tanto
+            en el front end y el back end.</p>
+        </div>
+        <div class="col-1">
+
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!--js bootstrap-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
